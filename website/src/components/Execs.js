@@ -1,21 +1,21 @@
 import { Container, Row, Col, Tab, Nav } from "react-bootstrap";
-import { ProjectCard } from "./ProjectCard";
-import exec1 from "../assets/Img/Eric Bai Intro.png";
-import exec2 from "../assets/Img/Angela Wong Intro.png";
-import exec3 from "../assets/Img/Ivy Gu Intro.png";
-import exec4 from "../assets/Img/Ivy Wang Intro.png";
-import exec5 from "../assets/Img/Josephine Huynh Intro.png";
-import exec6 from "../assets/Img/Kaylee Tam Intro.png";
-import exec7 from "../assets/Img/Michelle Luong Intro.png";
-import exec8 from "../assets/Img/Michelle Wong Intro.png";
-import exec9 from "../assets/Img/Sophia Zhang Intro.png";
-import exec10 from "../assets/Img/Victoria Yiu Intro.png";
-import exec11 from "../assets/Img/Yuna Peng Intro.png";
-import exec12 from "../assets/Img/Yvonne Chin Intro.png";
+import { ProjectCard } from "./ExecCard";
+import exec1 from "../assets/Img/exec1.png";
+import exec2 from "../assets/Img/exec2.png";
+import exec3 from "../assets/Img/exec3.png";
+import exec4 from "../assets/Img/exec4.png";
+import exec5 from "../assets/Img/exec5.png";
+import exec6 from "../assets/Img/exec6.png";
+import exec7 from "../assets/Img/exec7.png";
+import exec8 from "../assets/Img/exec8.png";
+import exec9 from "../assets/Img/exec9.png";
+import exec10 from "../assets/Img/exec10.png";
+import exec11 from "../assets/Img/exec11.png";
+import exec12 from "../assets/Img/exec12.png";
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
 
-export const Projects = () => {
+export const Execs = () => {
 
   const projects = [
     {
@@ -81,36 +81,33 @@ export const Projects = () => {
   ];
 
   return (
-    <section className="project" id="projects">
+    <section className="exec" id="execs">
       <Container>
         <Row>
           <Col size={12}>
             <TrackVisibility>
               {({ isVisible }) =>
               <div className={isVisible ? "animate__animated animate__fadeIn": ""}>
-                <h2>Projects</h2>
+                <h2>Execs</h2>
                 <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
-                <Tab.Container id="projects-tabs" defaultActiveKey="first">
-                  <Nav variant="pills" className="nav-pills mb-5 justify-content-center align-items-center" id="pills-tab">
+                <Tab.Container id="execs-tabs" defaultActiveKey="first">
+                <Nav variant="pills" className="nav-pills mb-5 justify-content-center align-items-center" id="pills-tab">
                     <Nav.Item>
                       <Nav.Link eventKey="first">Tab 1</Nav.Link>
                     </Nav.Item>
                     <Nav.Item>
                       <Nav.Link eventKey="second">Tab 2</Nav.Link>
                     </Nav.Item>
-                    <Nav.Item>
-                      <Nav.Link eventKey="third">Tab 3</Nav.Link>
-                    </Nav.Item>
                   </Nav>
                   <Tab.Content id="slideInUp" className={isVisible ? "animate__animated animate__slideInUp" : ""}>
                     <Tab.Pane eventKey="first">
                       <Row>
                         {
-                          projects.map((project, index) => {
+                          projects.map((exec, index) => {
                             return (
                               <ProjectCard
                                 key={index}
-                                {...project}
+                                {...exec}
                                 />
                             )
                           })

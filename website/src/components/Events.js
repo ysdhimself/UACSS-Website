@@ -65,7 +65,7 @@ export const Events = () => {
                             </div>
                             <div className="item">
                                 <img src={pic6} alt="cdf" />
-                                <h5>KGK Club Dance Fair</h5>
+                                <h5>Club Dance Fair</h5>
                             </div>
                             <div className="item">
                                 <img src={pic7} alt="Dumpling event" />
