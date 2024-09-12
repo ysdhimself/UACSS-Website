@@ -1,11 +1,15 @@
-import meter1 from "../assets/Img/agm 1.jpeg";
-import meter2 from "../assets/Img/agm 2.jpeg";
-import meter3 from "../assets/Img/badminton 1.png";
-import meter7 from "../assets/Img/club dance fair 1.jpg";
-import meter8 from "../assets/Img/dumpling 1.jpg";        
-import meter10 from "../assets/Img/infomart 1.JPG";
-import meter12 from "../assets/Img/lunar 1.CR2";
-import meter13 from "../assets/Img/mid autumn 1.jpeg";
+import pic1 from '../assets/Img/agm 1.jpeg';
+import pic2 from '../assets/Img/agm 2.jpeg';
+import pic3 from '../assets/Img/board_game_night 1.jpg';
+import pic4 from '../assets/Img/chinatown 1.jpg';
+import pic5 from '../assets/Img/chinatown 2.jpg';
+import pic6 from '../assets/Img/club dance fair 1.jpg';
+import pic7 from '../assets/Img/dumpling 1.jpg';
+import pic8 from '../assets/Img/infomart 1.JPG';
+import pic9 from '../assets/Img/mid autumn 1.jpeg';
+import pic10 from '../assets/Img/mid autumn 2.jpg';
+import pic11 from '../assets/Img/mid autumn 3.jpg';
+import pic12 from '../assets/Img/potluck 1.JPG';
 import Carousel from 'react-multi-carousel';
 import 'react-multi-carousel/lib/styles.css';
 
@@ -38,35 +42,54 @@ export const Events = () => {
                 <div className="col-12">
                     <div className="event-bx wow zoomIn">
                         <h2>Events</h2>
-                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.<br></br> Lorem Ipsum has been the industry's standard dummy text.</p>
                         <Carousel responsive={responsive} infinite={true} className="owl-carousel owl-theme skill-slider">
                             <div className="item">
-                                <img src={meter1} alt="Image" />
+                                <img src={pic1} alt="agm1" />
                                 <h5>First Annual General Meeting</h5>
                             </div>
                             <div className="item">
-                                <img src={meter2} alt="Image" />
+                                <img src={pic2} alt="agm2" />
                                 <h5>First Annual General Meeting</h5>
                             </div>
                             <div className="item">
-                                <img src={meter3} alt="Image" />
-                                <h5>Badminton event</h5>
+                                <img src={pic3} alt="bgn" />
+                                <h5>Board Game Night</h5>
                             </div>
                             <div className="item">
-                                <img src={meter7} alt="Image" />
-                                <h5>KGK Club Fair</h5>
+                                <img src={pic4} alt="ct1" />
+                                <h5>Chinatown Dance Team</h5>
                             </div>
                             <div className="item">
-                                <img src={meter8} alt="Image" />
-                                <h5>Dumpling making event</h5>
+                                <img src={pic5} alt="ct2" />
+                                <h5>Chinatown Dance Team</h5>
                             </div>
                             <div className="item">
-                                <img src={meter10} alt="Image" />
+                                <img src={pic6} alt="cdf" />
+                                <h5>KGK Club Dance Fair</h5>
+                            </div>
+                            <div className="item">
+                                <img src={pic7} alt="Dumpling event" />
+                                <h5>Dumpling Making Event</h5>
+                            </div>
+                            <div className="item">
+                                <img src={pic8} alt="Infomart" />
                                 <h5>InfoMart</h5>
                             </div>
                             <div className="item">
-                                <img src={meter13} alt="Image" />
+                                <img src={pic9} alt="maf" />
                                 <h5>Mid Autumn Festival</h5>
+                            </div>
+                            <div className="item">
+                                <img src={pic10} alt="maf" />
+                                <h5>Mid Autumn Festival</h5>
+                            </div>
+                            <div className="item">
+                                <img src={pic11} alt="maf" />
+                                <h5>Mid Autumn Festival</h5>
+                            </div>
+                            <div className="item">
+                                <img src={pic12} alt="PotLuck" />
+                                <h5>PotLuck</h5>
                             </div>
                         </Carousel>
                     </div>

@@ -340,7 +340,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   text-align: center;
   padding: 60px 50px;
   margin-top: -60px;
-  height: 700px;
+  
 }
 .event h2 {
 	font-size: 45px;
@@ -353,14 +353,18 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
     line-height: 1.5em;
     margin: 14px 0 75px 0;
 }
-.event-slider {
-  width: 80%;
+.skill-slider {
+  
   margin: 0 auto;
   position: fixed;
+
 }
-.event-slider .item img {
-  width: 50%;
+.skill-slider .item img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
   margin: 0 auto 15px auto;
+
 }
 .background-image-left {
   top: 28%;
@@ -368,6 +372,9 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   bottom: 0;
   width: 40%;
   z-index: -4;
+}
+.skill-slider .item {
+  padding: 0 10px; /* Adjust the spacing here (left-right) */
 }
 
 
