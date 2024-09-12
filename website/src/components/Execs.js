@@ -49,35 +49,35 @@ export const Execs = () => {
       imgUrl: exec6,
     },
     {
-        title: "Business Startup",
-        description: "Design & Development",
-        imgUrl: exec7,
-      },
-      {
-        title: "Business Startup",
-        description: "Design & Development",
-        imgUrl: exec8,
-      },
-      {
-        title: "Business Startup",
-        description: "Design & Development",
-        imgUrl: exec9,
-      },
-      {
-        title: "Business Startup",
-        description: "Design & Development",
-        imgUrl: exec10,
-      },
-      {
-        title: "Business Startup",
-        description: "Design & Development",
-        imgUrl: exec11,
-      },
-      {
-        title: "Business Startup",
-        description: "Design & Development",
-        imgUrl: exec12,
-      },
+      title: "Business Startup",
+      description: "Design & Development",
+      imgUrl: exec7,
+    },
+    {
+      title: "Business Startup",
+      description: "Design & Development",
+      imgUrl: exec8,
+    },
+    {
+      title: "Business Startup",
+      description: "Design & Development",
+      imgUrl: exec9,
+    },
+    {
+      title: "Business Startup",
+      description: "Design & Development",
+      imgUrl: exec10,
+    },
+    {
+      title: "Business Startup",
+      description: "Design & Development",
+      imgUrl: exec11,
+    },
+    {
+      title: "Business Startup",
+      description: "Design & Development",
+      imgUrl: exec12,
+    },
   ];
 
   return (
@@ -93,10 +93,10 @@ export const Execs = () => {
                 <Tab.Container id="execs-tabs" defaultActiveKey="first">
                 <Nav variant="pills" className="nav-pills mb-5 justify-content-center align-items-center" id="pills-tab">
                     <Nav.Item>
-                      <Nav.Link eventKey="first">Tab 1</Nav.Link>
+                      <Nav.Link eventKey="first">Execs</Nav.Link>
                     </Nav.Item>
                     <Nav.Item>
-                      <Nav.Link eventKey="second">Tab 2</Nav.Link>
+                      <Nav.Link eventKey="second">Upcoming Event</Nav.Link>
                     </Nav.Item>
                   </Nav>
                   <Tab.Content id="slideInUp" className={isVisible ? "animate__animated animate__slideInUp" : ""}>
@@ -114,10 +114,7 @@ export const Execs = () => {
                         }
                       </Row>
                     </Tab.Pane>
-                    <Tab.Pane eventKey="section">
-                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque quam, quod neque provident velit, rem explicabo excepturi id illo molestiae blanditiis, eligendi dicta officiis asperiores delectus quasi inventore debitis quo.</p>
-                    </Tab.Pane>
-                    <Tab.Pane eventKey="third">
+                    <Tab.Pane eventKey="second">
                       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque quam, quod neque provident velit, rem explicabo excepturi id illo molestiae blanditiis, eligendi dicta officiis asperiores delectus quasi inventore debitis quo.</p>
                     </Tab.Pane>
                   </Tab.Content>
