@@ -1,5 +1,5 @@
 import { Container, Row, Col, Tab, Nav } from "react-bootstrap";
-import { ProjectCard } from "./ExecCard";
+import { ProjectCard } from "./ProjectCard";
 import exec1 from "../assets/Img/exec1.png";
 import exec2 from "../assets/Img/exec2.png";
 import exec3 from "../assets/Img/exec3.png";

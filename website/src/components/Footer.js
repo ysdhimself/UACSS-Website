@@ -23,6 +23,13 @@ export const Footer = () => {
             <p>Copyright 2022. All Rights Reserved</p>
           </Col>
         </Row>
+        <Row className="text-center text-sm-end">
+          <Col size={12}>
+            <a href='https://pngtree.com/freepng/fortune-cat-maneki-neko-chinese-new-year_15246655.html'>lucky cat from pngtree.com</a>
+            <br />
+            <a href="https://www.freepik.com/free-vector/flat-design-dragon-silhouette_28720829.htm#query=chinese%20dragon&position=0&from_view=keyword&track=ais_hybrid&uuid=755084a6-3694-4730-9d91-e8eeeee71dda">Dragon Image by Freepik</a>
+          </Col>
+        </Row>
       </Container>
     </footer>
   )
